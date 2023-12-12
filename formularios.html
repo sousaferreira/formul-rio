@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+     
+    <legend>Fale conosco</legend>
+    <form>
+
+Nome:*<input
+type = "text" name="nome"placeholder="digite seu nome aqui">
+<br>
+E-mail:*<input 
+type = "email" name="email" placeholder="digite seu email aqui">
+<br>
+<label for="story">Texto: </label>
+<textarea></textarea></br></textarea>
+
+<label>selecione um assunto'</label>
+<select name=" selecione um assunto">
+    <option value = "instagram">instagram</option>
+    <option value = "facebook">facebook</option>
+    <option value = "whatsapp">whatsapp</option>
+    <option value = "tik tok">tik tok</option>
+</select>
+
+
+<br>
+<input type = "button"
+value = 'enviar'
+onclick="msg()">
+
+<input type = "button"
+value = 'cancelar'
+onclick="ccl()">
+
+ </form>
+</fieldset>
+
+ <script>
+    function msg(){
+        alert ('seu formulário foi enviado')
+    }
+  </script>
+
+<script>
+    function ccl(){
+        alert ('seu formulário foi cancelado')
+    }
+  </script>
+
+</body>
+</html>
